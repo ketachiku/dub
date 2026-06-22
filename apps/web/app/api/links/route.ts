@@ -81,7 +81,7 @@ export const POST = withWorkspace(
         throw new DubApiError({
           code: "rate_limit_exceeded",
           message:
-            "Rate limited – you can only create up to 10 links per day without an account.",
+            "Rate limited – you can only create up to 10 links per day with an account.",
         });
       }
     }
