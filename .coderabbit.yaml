@@ -7,6 +7,7 @@ reviews:
       instructions: |
         - any型の使用を指摘すること
         - エラーハンドリングの漏れを確認すること
+        - 修正箇所のコメントが確実に記入されていること
     - path: "src/api/**"
       instructions: |
         - 認証・認可チェックの有無を確認すること
